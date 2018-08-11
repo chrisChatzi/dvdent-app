@@ -79,7 +79,7 @@ var Newsletter = null;
    function httpServerFunction(){
         //express
             //static
-                app.use('/', express.static((path.join(__dirname,'../dist'))));
+                app.use('/', express.static((path.join(__dirname,'./dist'))));
             //ajax
                 app.get('/categories', function (req, res) {
                     Categories.find({}, function(err, categories) {
