@@ -1,0 +1,33 @@
+{
+  "name": "dvdent",
+  "version": "1.0.0",
+  "description": "Dental equipment",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.16.3",
+    "mongoose": "^5.2.4",
+    "nodemailer": "^4.6.7",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisChatzi/dvdent-app"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "dental",
+    "dentist",
+    "equipment"
+  ],
+  "license": "MIT"
+}
