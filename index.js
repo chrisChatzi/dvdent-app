@@ -1,4 +1,4 @@
-var config = require("./config"),
+var config = require("./server/config"),
     express = require('express'),
     path = require('path'),
     app = require('express')();
