@@ -1,4 +1,4 @@
-var config = require("./server/config"),
+var config = require("./server/config.js"),
     express = require('express'),
     path = require('path'),
     app = require('express')();
@@ -11,7 +11,6 @@ var config = require("./server/config"),
     mail = require('nodemailer'),
     httpPort = process.env.PORT || config.port;
 
-var mongoLib = require("./mongoLib.js");
 var Users = null;
 var Categories = null;
 var ProductsList = null;
