@@ -187,7 +187,6 @@ var Newsletter = null;
                                 console.log(sec)
                             }
                         }
-                        // res.send(JSON.stringify({success: true}))
                     });
                 });
 
